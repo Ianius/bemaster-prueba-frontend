@@ -1,0 +1,32 @@
+.content-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-category__grid {
+    display: grid;
+    grid-gap: 32px;
+    background: #31313c;
+    padding: 32px;
+    border-radius: 4px;
+}
+
+@media (max-width: 475px) {
+    .content-category__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 475px) and (max-width: 768px) {
+    .content-category__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .content-category__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

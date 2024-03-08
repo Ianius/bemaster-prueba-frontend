@@ -1,0 +1,17 @@
+.movie-cover-button {
+    all: unset;
+    cursor: pointer;
+    transition:
+        transform 0.2s ease;
+}
+
+.movie-cover-button:hover {
+    transform: scale(105%);
+}
+
+.movie-cover-button__image {
+    width: 100%;
+    min-width: 0px;
+    min-height: 0px;
+    border-radius: 4px;
+}

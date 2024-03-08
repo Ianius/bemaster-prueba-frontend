@@ -1,0 +1,40 @@
+.navbar {
+    padding: 16px;
+    background-color: #E84057;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__contents {
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 475px) {
+    .home__category-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 475px) and (max-width: 768px) {
+    .home__category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .home__category-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.navbar__username {
+    font-weight: bold;
+    text-align: center;
+    text-justify: center;
+}

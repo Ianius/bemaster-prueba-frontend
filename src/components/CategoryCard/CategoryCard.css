@@ -1,0 +1,42 @@
+.category-card {
+    all: unset;
+    cursor: pointer;
+    transition:
+        transform 0.2s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card__background {
+    width: 100%;
+    height: 164px;
+    background: #515163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition:
+        background 0.2s ease;
+}
+
+.category-card:hover > .category-card__background {
+/*    background: #282830;*/
+    background: #E84057;
+}
+
+.category-card__name {
+    padding-bottom: 10px;
+}
+
+.category-card__icon {
+    color: red;
+    transition: 
+        filter 0.2s ease;
+}
+
+.category-card:hover .category-card__icon {
+    filter: brightness(0%)
+}

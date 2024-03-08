@@ -1,0 +1,301 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "User1",
+            "email": "user1@example.com",
+            "password": "123",
+            "categories": [1, 2, 3, 4, 5]
+        },
+        {
+            "id": 2,
+            "name": "User2",
+            "email": "user2@example.com",
+            "password": "123",
+            "categories": [2, 3, 5, 7, 8]
+        },
+        {
+            "id": 3,
+            "name": "User3",
+            "email": "user3@example.com",
+            "password": "123",
+            "categories": [1, 2, 4, 7, 8]
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Action",
+            "icon": "genre-icon-action.png",
+            "description": "High-octane thrillers filled with intense battles, daring stunts, and adrenaline-pumping sequences."
+        },
+        {
+            "id": 2,
+            "name": "Comedy",
+            "icon": "genre-icon-comedy.png",
+            "description": "Light-hearted and humorous films that aim to entertain and make audiences laugh with witty dialogue and funny situations."
+        },
+        {
+            "id": 3,
+            "name": "Drama",
+            "icon": "genre-icon-drama.png",
+            "description": "Thought-provoking narratives that delve into the complexities of human emotions, relationships, and life's challenges."
+        },
+        {
+            "id": 4,
+            "name": "Sci-Fi",
+            "icon": "genre-icon-scifi.png",
+            "description": "Futuristic tales exploring advanced technology, alien worlds, and scientific possibilities beyond the realm of current understanding."
+        },
+        {
+            "id": 5,
+            "name": "Fantasy",
+            "icon": "genre-icon-fantasy.png",
+            "description": "Magical realms where anything is possible, featuring mythical creatures, epic quests, and battles between good and evil."
+        },
+        {
+            "id": 6,
+            "name": "Thriller",
+            "icon": "genre-icon-thriller.png",
+            "description": "Suspenseful plots filled with twists and turns, keeping viewers on the edge of their seats with unexpected thrills and suspenseful moments."
+        },
+        {
+            "id": 7,
+            "name": "Horror",
+            "icon": "genre-icon-horror.png",
+            "description": "Terrifying tales designed to evoke fear and suspense, often featuring supernatural elements, monsters, or psychological terror."
+        },
+        {
+            "id": 8,
+            "name": "Romance",
+            "icon": "genre-icon-romance.png",
+            "description": "Heartwarming stories of love and relationships, exploring the joys and challenges of romantic connections."
+        }
+    ],
+    "content": [
+        {
+            "id": 1,
+            "title": "Inception",
+            "category": 4,
+            "synopsis": "A thief who enters the dreams of others to steal their secrets from their subconscious is given the inverse task of planting an idea into the mind of a CEO.",
+            "trailer": "https://www.youtube.com/enbed/YoHD9XEInc0",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/rWDkbJlIyqN8KcqXajh9sZMwGzo.jpg"
+        },
+        {
+            "id": 2,
+            "title": "The Shawshank Redemption",
+            "category": 3,
+            "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            "trailer": "https://www.youtube.com/embed/6hB3S9bIaco",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/xXXFdqV965crlxCO3dj3PhtcCAf.jpg"
+        },
+        {
+            "id": 3,
+            "title": "The Dark Knight",
+            "category": 1,
+            "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+            "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/A9YICp8lGP7Es5R8oD6qUbvDWhn.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Forrest Gump",
+            "category": 8,
+            "synopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+            "trailer": "https://www.youtube.com/embed/bLvqoHBptjg",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/vwkDy2wDm2aglYDprOSuVgT5J1L.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Interstellar",
+            "category": 4,
+            "synopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+            "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/b3yyWxAopoCLYEMMtNbMvZkG6f1.jpg"
+        },
+        {
+            "id": 6,
+            "title": "The Matrix",
+            "category": 4,
+            "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+            "trailer": "https://www.youtube.com/embed/vKQi3bBA1y8",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/oeZzovVxhgqdTWgiAB1huZbjRHf.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Pulp Fiction",
+            "category": 6,
+            "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+            "trailer": "https://www.youtube.com/embed/s7EdQ4FqbhY",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/jlVOS4D6ledQGxGdL0EIte3TXfL.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Gladiator",
+            "category": 1,
+            "synopsis": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+            "trailer": "https://www.youtube.com/embed/owK1qxDselE",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/w6ic3Y64IETKWckhmDKOVMDtGp8.jpg"
+        },
+        {
+            "id": 9,
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "category": 5,
+            "synopsis": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+            "trailer": "https://www.youtube.com/embed/Pki6jbSbXIY",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/gU84vBGG2x8K3x1zrz4SggiN5hr.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Fight Club",
+            "category": 6,
+            "synopsis": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+            "trailer": "https://www.youtube.com/embed/qtRKdVHc-cE",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/fygeMr16EcxJiYhdiO1LEr7iHtI.jpg"
+        },
+        {
+            "id": 11,
+            "title": "The Silence of the Lambs",
+            "category": 7,
+            "synopsis": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+            "trailer": "https://www.youtube.com/embed/W6Mm8Sbe__o",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/jEB8ILifjm2C4mOBOeTZNN4UNiF.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Inglourious Basterds",
+            "category": 6,
+            "synopsis": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+            "trailer": "https://www.youtube.com/embed/KnrRy6kSFF0",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/e9RBxEVDxpPVaLFEOn6FnURARmJ.jpg"
+        },
+        {
+            "id": 13,
+            "title": "The Godfather",
+            "category": 3,
+            "synopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+            "trailer": "https://www.youtube.com/embed/sY1S34973zA",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/AbgEQO2mneCSOc8CSnOMa8pBS8I.jpg"
+        },
+        {
+            "id": 14,
+            "title": "Schindler's List",
+            "category": 3,
+            "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+            "trailer": "https://www.youtube.com/embed/JdRGC-w9syA",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/wH7ZxjF1yU3azuj3pgXVcgrCTUk.jpg"
+        },
+        {
+            "id": 15,
+            "title": "The Prestige",
+            "category": 2,
+            "synopsis": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+            "trailer": "https://www.youtube.com/embed/o4gHCmTQDVI",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/8qNI1E7jprDtCVoWKhXFagrP6ox.jpg"
+        },
+        {
+            "id": 16,
+            "title": "The Green Mile",
+            "category": 3,
+            "synopsis": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+            "trailer": "https://www.youtube.com/embed/ctRK-4Vt7dA",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/5Nz25DPXfQaSpDgce42Y3kFg9G4.jpg"
+        },
+        {
+            "id": 17,
+            "title": "The Departed",
+            "category": 6,
+            "synopsis": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+            "trailer": "https://www.youtube.com/embed/auYbpnEwBBg",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/5Q4MgP6GtB0E3COVJijjQY4xEQo.jpg"
+        },
+        {
+            "id": 18,
+            "title": "The Lord of the Rings: The Return of the King",
+            "category": 5,
+            "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+            "trailer": "https://www.youtube.com/embed/r5X-hFf6Bwo",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/gtxgvnmzhwhUGAWYTNK9hKai3Hk.jpg"
+        },
+        {
+            "id": 19,
+            "title": "The Lion King",
+            "category": 5,
+            "synopsis": "A lion cub prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to later accept in adulthood his identity and his responsibilities.",
+            "trailer": "https://www.youtube.com/embed/4sj1MT05lAA",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/dRuf1mX3p1PR3PkcCqt2L1V4fM2.jpg"
+        },
+        {
+            "id": 20,
+            "title": "The Dark Knight Rises",
+            "category": 1,
+            "synopsis": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+            "trailer": "https://www.youtube.com/embed/g8evyE9TuYk",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/73lKeIl7MOQsFK74shmoSAhitg6.jpg"
+        },
+        {
+            "id": 21,
+            "title": "The Godfather: Part II",
+            "category": 3,
+            "synopsis": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+            "trailer": "https://www.youtube.com/embed/9O1Iy9od7-A",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/uG0JWCEwQnyQA4yGjGrTYvLfu7L.jpg"
+        },
+        {
+            "id": 22,
+            "title": "The Lord of the Rings: The Two Towers",
+            "category": 5,
+            "synopsis": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+            "trailer": "https://www.youtube.com/embed/LbfMDwc4azU",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/9KCiWyhFJlN2v0y3O7YAWvlgkvE.jpg"
+        },
+        {
+            "id": 23,
+            "title": "Se7en",
+            "category": 6,
+            "synopsis": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+            "trailer": "https://www.youtube.com/embed/7lERbSXWD2w",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/6jRk8m3Bd5i514cFzv95YKUjpw8.jpg"
+        },
+        {
+            "id": 24,
+            "title": "The Usual Suspects",
+            "category": 6,
+            "synopsis": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+            "trailer": "https://www.youtube.com/embed/oiXdPolca5w",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/kLzTYwbZ3b54Uun3k7ShlJwsgys.jpg"
+        },
+        {
+            "id": 25,
+            "title": "Léon: The Professional",
+            "category": 1,
+            "synopsis": "Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
+            "trailer": "https://www.youtube.com/embed/DcsirofJrlM",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/rtUOro8dRC0vS1EBwFoI7PuvfHI.jpg"
+        },
+        {
+            "id": 26,
+            "title": "The Matrix Reloaded",
+            "category": 4,
+            "synopsis": "Neo and his allies race against time before the machines discover the city of Zion and destroy it. While seeking the truth about the Matrix, Neo must save Trinity from a dark fate within his dreams.",
+            "trailer": "https://www.youtube.com/embed/a6gdp6L_qDQ",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/4t6yb3USH1jRml18LiLgnGWq8q9.jpg"
+        },
+        {
+            "id": 27,
+            "title": "The Big Lebowski",
+            "category": 2,
+            "synopsis": "Jeff 'The Dude' Leboswki, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+            "trailer": "https://www.youtube.com/embed/cd-go0oBF4Y",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/3jNcl3JmPbsqhn6Ro8gKYCDM89e.jpg"
+        },
+        {
+            "id": 28,
+            "title": "Heat",
+            "category": 1,
+            "synopsis": "A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist.",
+            "trailer": "https://www.youtube.com/embed/0xbBLJ1WGwQ",
+            "thumbnail": "https://image.tmdb.org/t/p/w500/1E76rzz4QqIWAKb8vEZI34fHbS1.jpg"
+        }
+    ]
+}

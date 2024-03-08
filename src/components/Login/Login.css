@@ -1,0 +1,28 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+}
+
+.login__form {
+    flex: 2;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 512px;
+    background: #31313c;
+    color: white;
+    border-radius: 8px;
+    padding: 32px;
+    gap: 12px;
+    align-items: stretch;
+    animation: swing ease-out 0.25s forwards;
+}
+
+@keyframes swing {
+    0% { transform: translateY(10%); }
+    100% { transform: translateY(0%); }
+}
